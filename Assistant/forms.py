@@ -4,7 +4,6 @@ from logging import PlaceHolder
 from multiprocessing import Event
 from multiprocessing.dummy import current_process
 from pyexpat import model
-from tkinter import Label
 from attr import field, fields
 from django import forms
 from django.contrib.auth.forms import UserCreationForm,AuthenticationForm,UsernameField
