@@ -29,7 +29,14 @@ SECRET_KEY = '6n2v6^7mu^_wmj9#p71)@xu8ye5oy^-s_#u=#qg-c(yoc4(ds='
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://django-saloni.azurewebsites.net/']
+
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ALLOW_CREDENTIALS = True
+
+CSRF_TRUSTED_ORIGINS = ['https://django-saloni.azurewebsites.net/', 'https://django-saloni.azurewebsites.net/signup/']
 DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
 
 
