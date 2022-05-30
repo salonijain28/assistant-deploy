@@ -37,6 +37,9 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 
 CSRF_TRUSTED_ORIGINS = ['https://django-saloni.azurewebsites.net/', 'https://django-saloni.azurewebsites.net/signup/']
+CORS_ORIGIN_WHITELIST = (
+    'https://django-saloni.azurewebsites.net/'
+)
 DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
 
 
